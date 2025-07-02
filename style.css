@@ -98,11 +98,11 @@ p{
     color: hsl(234, 12%, 34%);
 }
 @media screen and  
-(max-width: 400px) {
+(max-width: 500px) {
     .all {
         flex-direction: column;
         align-items: center;
-        width: auto        git remote add origin https://github.com/your-username/your-repo.git;
+        width: auto       
        
        
     }
@@ -158,9 +158,6 @@ p{
         margin-top: 0;
         align-items: center;
     }
-    .supervisor img{
-        
-    } 
     h3{
         font-size: 14px;
         margin-top: 0;

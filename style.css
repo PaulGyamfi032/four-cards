@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+body{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.topic{
+    justify-items: center;
+    font-size: 12px;
+    align-items: center;
+}
+.supervisor{
+    border: solid black;
+    width: 270px;
+    height: 200px;
+    margin-top: 180px;
+    margin-left: 150px;
+    margin-bottom: 130px;
+    padding: 12px;
+    border-radius: 10px;
+    border-top: 6px solid  hsl(180, 62%, 55%);
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+    box-shadow: 1px 1px 20px  hsl(234, 12%, 34%);
+}
+.team{
+    border: solid black;
+    width: 270px;
+    height: 200px;
+    padding: 12px;
+    border-radius: 10px;
+    border-top: 6px solid hsl(0, 78%, 62%);
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+    box-shadow: 1px 1px 20px  hsl(234, 12%, 34%);
+}
+.karma{
+    border: solid black;
+    width: 270px;
+    height: 200px;
+    margin-top: 40px;
+    padding: 12px;
+    border-radius: 10px;
+    border-top: 6px solid hsl(34, 97%, 64%);
+     border-left: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+    box-shadow: 1px 1px 20px  hsl(234, 12%, 34%);
+    margin-bottom: 30px;
+}
+.calculator{
+    border: solid black;
+    width: 270px;
+    height: 200px;
+    margin-top: 180px;
+    margin-bottom: 130px;
+    padding: 12px;
+    border-radius: 10px;
+    border-top: 6px solid  hsl(212,46%, 64%);
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+    box-shadow: 1px 1px 20px  hsl(234, 12%, 34%);
+    margin-right: 220px;
+}
+.two{
+    display: flex;flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    padding-left: 210px;
+    padding-top: 0px;
+}
+p{
+    color:  hsl(234, 12%, 34%);
+}
+.rel{
+    font-size: 30px;
+    font-weight: 200;
+}
+.tech{
+    font-size: 40px;
+    font-weight: 600;
+    color: hsl(180, 4%, 20%);
+}
+.our{
+    font-size: 20px;
+    font-weight: 400;
+    color: hsl(234, 12%, 34%);
+}
+@media screen and  
+(max-width: 400px) {
+    .all {
+        flex-direction: column;
+        align-items: center;
+        width: auto        git remote add origin https://github.com/your-username/your-repo.git;
+       
+       
+    }
+    img{
+        padding-left: 0px;
+        padding-top: 0px;
+        margin-top: 0;
+        width: 30px;
+        margin-left: 150px;
+        
+
+        
+    }
+    .supervisor, .team, .karma, .calculator{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: px;
+    }
+    .rel{
+        font-size: 15px;
+        align-items: center;  
+    }   
+    .tech{
+        font-size: 18px;
+        align-items: center;
+    } 
+    .our{
+        font-size: 10px;
+        margin-bottom: 20px;
+        align-items: center;
+    }  
+    .supervisor{
+        width: 180px;
+        height: 120px;
+        margin-bottom: 0;
+        align-items: center;
+       
+    }  
+    .team{
+        width: 180px;
+        height: 120px;
+        margin-top: 0;
+        align-items: center;
+    }
+    .karma{
+        width: 180px;
+        height: 120px;
+        align-items: center;
+    }
+    .calculator{
+        width: 180px;
+        height: 120px;
+        margin-top: 0;
+        align-items: center;
+    }
+    .supervisor img{
+        
+    } 
+    h3{
+        font-size: 14px;
+        margin-top: 0;
+    }
+    .supervisor, .mon{
+        font-size: 10px;
+        margin-top: 0;
+    }
+    .team, .scan{
+        font-size: 10px;
+    }   
+    .karma, .reg{
+         font-size: 10px;
+    }
+    .calculator, .cal{
+        font-size: 10px;
+    }
+}
+
+
+
